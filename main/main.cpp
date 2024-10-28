@@ -25,7 +25,7 @@ int main()
 
 	setPosition(11, 0);
 
-	printf("test222");
+	printf("test2222222");
 
 	return 0;
 }
@@ -47,26 +47,26 @@ void setPosition(int y, int x)
 void drawOutline()
 {
 	setPosition(0, 0);
-	printf("¦®");
+	printf("Â¦Â®");
 	setPosition(0, 20);
-	printf("¦¯");
+	printf("Â¦Â¯");
 	setPosition(10, 0);
-	printf("¦±");
+	printf("Â¦Â±");
 	setPosition(10, 20);
-	printf("¦°");
+	printf("Â¦Â°");
 	for (int i = 1; i < 10; i++)
 	{
 		setPosition(i, 0);
-		printf("¦­");
+		printf("Â¦Â­");
 		setPosition(i, 20);
-		printf("¦­");
+		printf("Â¦Â­");
 	}
 	for (int i = 1; i < 20; i++)
 	{
 		setPosition(0, i);
-		printf("¦¬");
+		printf("Â¦Â¬");
 		setPosition(10, i);
-		printf("¦¬");
+		printf("Â¦Â¬");
 	}
 	
 }
