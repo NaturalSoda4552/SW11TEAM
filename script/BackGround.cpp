@@ -2,5 +2,5 @@
 
 
 void main() {
-
+	printf("this is bg \n");
 }
