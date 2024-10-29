@@ -47,26 +47,26 @@ void setPosition(int y, int x)
 void drawOutline()
 {
 	setPosition(0, 0);
-	printf("¦®");
+	printf("┌");
 	setPosition(0, 20);
-	printf("¦¯");
+	printf("┐");
 	setPosition(10, 0);
-	printf("¦±");
+	printf("└");
 	setPosition(10, 20);
-	printf("¦°");
+	printf("┘");
 	for (int i = 1; i < 10; i++)
 	{
 		setPosition(i, 0);
-		printf("¦­");
+		printf("│");
 		setPosition(i, 20);
-		printf("¦­");
+		printf("│");
 	}
 	for (int i = 1; i < 20; i++)
 	{
 		setPosition(0, i);
-		printf("¦¬");
+		printf("─");
 		setPosition(10, i);
-		printf("¦¬");
+		printf("─");
 	}
 	
 }
