@@ -26,6 +26,7 @@ int main()
 	setPosition(11, 0);
 
 	printf("test2222222");
+	printf("test33");
 
 	return 0;
 }
