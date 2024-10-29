@@ -27,7 +27,6 @@ int main()
 
 	printf("test2222222");
 	printf("test33");
-	printf(" ");
 
 	return 0;
 }
