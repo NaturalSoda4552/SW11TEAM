@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{c589868b-86cf-4871-a4e3-9aa56c2414f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GJ 소스">
+      <UniqueIdentifier>{868cd7e4-9563-48f1-b2a0-cd3b679868d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GJ 헤더">
+      <UniqueIdentifier>{9728b3c9-3817-42e7-b92a-d6afb0677a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TK 헤더">
+      <UniqueIdentifier>{e09009ac-564e-4ffb-96c3-15f1f51873ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TK 소스">
+      <UniqueIdentifier>{ba0cf445-d754-4945-908d-8f307c610d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\YG 소스">
+      <UniqueIdentifier>{560c59e1-65ed-4a44-bbb7-9f51d601bef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\YG 헤더">
+      <UniqueIdentifier>{d019282a-a110-4399-9059-45a786e75430}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="MapScene.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopScene.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlayScene.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScene.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="EventScene.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="MainBattle.cpp">
+      <Filter>소스 파일\YG 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Explanation.cpp">
+      <Filter>소스 파일\GJ 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\TK 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>소스 파일\TK 소스</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleScene.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="EventScene.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlayScene.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="MapScene.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneASCIIAsset.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScene.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopScene.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>소스 파일\YG 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="MainBattle.h">
+      <Filter>소스 파일\YG 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Explanation.h">
+      <Filter>소스 파일\GJ 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\TK 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\TK 헤더</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
